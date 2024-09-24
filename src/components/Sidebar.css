@@ -1,0 +1,40 @@
+nav {
+  width: 15dvw;
+  height: 100dvh;
+  -webkit-box-shadow: 9px 0px 67px -30px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 0px 67px -30px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 0px 67px -30px rgba(0, 0, 0, 0.75);
+  z-index: 10;
+  gap: 60px;
+}
+.title--container {
+  padding: 10px;
+  border-radius: 10px;
+  background: #4a90e2;
+  color: white;
+}
+.app--title {
+  font-size: 24px;
+}
+.account,
+.widget {
+  padding: 15px;
+  font-size: 14px;
+  overflow: hidden;
+}
+.account:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+}
+.accounts--heading,
+.widgets--heading {
+  margin-bottom: 15px;
+}
+.accounts--container {
+  height: 400px;
+  gap: 15px;
+}
+.widget:hover {
+  background-color: rgba(74, 144, 226, 0.25);
+  font-weight: 700;
+}

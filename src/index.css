@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+@font-face {
+  font-family: "Coolvetica";
+  src: local("Coolvetica"), url("./assets/coolvetica.otf") format("opentype");
+}
+:root {
+  --mainColor: #4a90e2;
+}
+div > img {
+  width: 100%;
+}
+.hover--effect--basic:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+.horizontal--flex {
+  display: flex;
+  flex-direction: row;
+}
+.vertical--flex {
+  display: flex;
+  flex-direction: column;
+}
+.bold--text {
+  font-weight: 700;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+.main--padding {
+  padding: 20px 30px;
+}
