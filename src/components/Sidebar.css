@@ -1,10 +1,10 @@
 nav {
-  width: 15dvw;
+  width: 17dvw;
   height: 100dvh;
   -webkit-box-shadow: 9px 0px 67px -30px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 9px 0px 67px -30px rgba(0, 0, 0, 0.75);
   box-shadow: 9px 0px 67px -30px rgba(0, 0, 0, 0.75);
-  z-index: 10;
+  z-index: 9;
   gap: 60px;
 }
 .title--container {
@@ -19,12 +19,26 @@ nav {
 .account,
 .widget {
   padding: 15px;
-  font-size: 14px;
   overflow: hidden;
+  gap: 5px;
+}
+.account {
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+}
+.account > p,
+.widget > p {
+  font-size: 14px;
 }
 .account:hover {
   background-color: rgba(0, 0, 0, 0.2);
-  font-weight: 700;
+}
+.logout--icon {
+  opacity: 0;
+}
+.account:hover .logout--icon {
+  opacity: 1;
 }
 .accounts--heading,
 .widgets--heading {
@@ -36,5 +50,4 @@ nav {
 }
 .widget:hover {
   background-color: rgba(74, 144, 226, 0.25);
-  font-weight: 700;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/Sidebar";
+import MailPreview from "../components/MailPreview";
 
 import "./Home.css";
 
@@ -9,7 +10,7 @@ function Home() {
     <>
       <main className="horizontal--flex">
         <Sidebar />
-        <div className="main--padding main--preview--container">Home</div>
+        <MailPreview />
       </main>
     </>
   );

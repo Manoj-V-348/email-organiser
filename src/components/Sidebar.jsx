@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Icon } from "@iconify/react";
+
 import "./Sidebar.css";
 import "../index.css";
 
@@ -14,8 +16,15 @@ function Sidebar() {
         <div className="accounts--container">
           <p className="bold--text accounts--heading">Accounts</p>
           <div className="accounts--display--container">
-            <div className="account hover--effect--basic">
-              im.vmanoj2002@gmail.com
+            <div className="account hover--effect--basic horizontal--flex">
+              <p>im.vmanoj2002@gmail.com</p>
+              <Icon
+                icon="material-symbols-light:logout-sharp"
+                width="20"
+                height="20"
+                style={{ color: "black" }}
+                className="logout--icon"
+              />
             </div>
           </div>
         </div>
@@ -24,7 +33,7 @@ function Sidebar() {
           <p className="bold--text widgets--heading">Categories</p>
           <div className="widgets--display--container">
             <div className="widget hover--effect--basic">
-              im.vmanoj2002@gmail.com
+              <p>im.vmanoj2002@gmail.com</p>
             </div>
           </div>
         </div>
